@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.header {
+  background-image: url('./images/Untitled_Jorge_Guadalupe_Lizarraga.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+}
+
+.header__logo {
+  height: 2.18rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.4rem;
+  height: 6.4rem;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 62%;
+  padding-left: 4.4rem;
+  position: relative;
+}
+
+.header__search-input {
+  height: 3.3rem;
+  width: 100%;
+  padding: .6rem 1rem .6rem 0;
+  border: none;
+  
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #ced4da;
+  justify-self: flex-start;
+}
+
+.header__search-input:focus {
+  outline: none;
+  background-color: #e9ecef;
+}
+
+.header__search-input:focus + .header__search-btn {
+  outline: none;
+  background-color: #e9ecef;
+}
+
+.header__search-btn {
+  background-color: #ced4da;
+  height: 3.3rem;
+  border: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  padding: 0 1.1rem;
+}
+
+.fa-search {
+  font-size: 1.8rem;
+  color: #495057;
+}
+
+.btn {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.6rem;
+}
+
+.btn-full {
+  font-weight: 600;
+  background-color: #fff;
+  padding: .75rem 1.85rem;
+  border-radius: 3px;
+}
+
+.header__actions .btn-ghost {
+  margin-right: 2rem;
+  color: #fff;
+}
