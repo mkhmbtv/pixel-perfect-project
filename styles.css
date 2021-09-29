@@ -18,10 +18,10 @@ body {
 }
 
 .header {
-  background-image: url('./images/Untitled_Jorge_Guadalupe_Lizarraga.jpeg');
   background-size: cover;
   background-position: center;
   height: 92vh;
+  transition: all 1s;
 }
 
 .header__logo {
@@ -35,6 +35,8 @@ body {
   padding: 0 2.4rem;
   height: 6.4rem;
   background-color: rgba(0, 0, 0, .3);
+  position: sticky;
+  top: 0;
 }
 
 .header__search {
